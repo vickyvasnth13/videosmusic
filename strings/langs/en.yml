@@ -83,12 +83,7 @@ start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** 
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "❈•≫───≪•◦ ❈ ◦•≫───≪•❈
-👻 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ 🫧
-‌❈•≫───≪•◦ ❈ ◦•≫───≪•❈ \n\n๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ. 
-\n\n๏ ɪғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ɪɴ ᴄᴏᴍᴍᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ʙᴏᴛ ᴏᴡɴᴇʀ ᴏʀ ᴀsᴋ ɪɴ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.
-\n\n๏ ʙᴏᴛ ᴏᴡɴᴇʀ : @vicky_vky
- /"
+help_1 : "/"
 help_2 : "Contact me in PM for help."
 
 # Settings
@@ -132,7 +127,8 @@ gstats_10 : "**Global Stats of {0}**\n\nSelect the buttons from below for which 
 gstats_11 : "**General Stats of {0}**\nSelect the buttons from below for which you want to check global stats from bot's servers.\n\nTo check top tracks, chats, users and other stuffs, please use /gstats"
 
 
-# Play 
+# Play ๏ ʙᴏᴛ ᴏᴡɴᴇʀ : @vicky_vky
+
 
 #Play Callback 
 playcb_1 : "This is not for you! Search You Own Song."
