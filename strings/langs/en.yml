@@ -142,8 +142,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Processing Query... Please Wait!"
-play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
+play_1 : "🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀 ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗"
+play_2 : "**🏷Channel Play Mode**\n\n🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀 ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
@@ -222,7 +222,7 @@ song_10 : "Failed to upload on telegram from servers."
 song_11 : "Uploading Started\n\nUploading speed could be slow. Please hold on.."
 
 # Tools - Queue
-queue_1 : "Please Wait..Fetching Queue.."
+queue_1 : "ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ... ғᴇᴛᴄʜɪɴɢ ǫᴜᴇᴜᴇ..🕵️"
 queue_2 : "Queued List is empty. No tracks found"
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
 queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2}\n👤**Added By:** {3}"
@@ -237,31 +237,31 @@ stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🗑 Close"
-CLOSEMENU_BUTTON  : "🗑 Close Menu"
-BACK_BUTTON : "⬅ Back"
-UNBAN_BUTTON : "🗑 Unban Assistant"
+CLOSE_BUTTON  : "🗑 ᴄʟᴏsᴇ"
+CLOSEMENU_BUTTON  : "🛡️ ᴄʟᴏsᴇ ᴍᴇɴᴜ 💫"
+BACK_BUTTON : "◀ ʙᴀᴄᴋ"
+UNBAN_BUTTON : "🗑 ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ"
 
 #Lyrics
-L_B_1 : "🚀 Checkout Lyrics Now"
+L_B_1 : "🚀 ᴄʜᴇᴄʜᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
 
 # Start
-S_B_1 : "🗒 Commands"
-S_B_2 : "🔧 Settings"
-S_B_3 : "📨 Support"
-S_B_4 : "📨 Channel"
-S_B_5 : "✚ Add me to your Group"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands Menu."
+S_B_1 : "🗒 ᴄᴏᴍᴍᴀɴᴅ"
+S_B_2 : "🔧 ⚙️ sᴇᴛᴛɪɴɢ"
+S_B_3 : "📨 sᴜᴘᴘᴏʀᴛ"
+S_B_4 : "📨 ᴄʜᴀɴɴᴇʟ"
+S_B_5 : "❄️ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs 🎙️"
+S_B_6 : "💡 ɢɪᴛ ʀᴇᴘ"
+S_B_7 : "👾 ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs 🎋"
+S_B_8 : "🕵️ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ ✨"
 
 #Help 
-H_B_1 : "Admin Commands"
-H_B_2 : "Play Commands"
-H_B_3 : "Bot Commands"
-H_B_4 : "Extra Commands"
-H_B_5 : "Close Menu"
-H_B_6 : "SudoUser Commands"
+H_B_1 : "👀 ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs 💫"
+H_B_2 : "🎼 ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs 🎙️
+H_B_3 : "🛡️ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ⚙️"
+H_B_4 : "❄️ ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅs ❄️"
+H_B_5 : "🛡️ ᴄʟᴏsᴇ ᴍᴇɴᴜ 💫"
+H_B_6 : "🎋 sᴜᴅᴏᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs 👽"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
