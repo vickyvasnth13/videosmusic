@@ -54,7 +54,7 @@ for filename in os.listdir(r"./strings/langs/"):
                 languages[language_name][item] = languages["vicky"][item]
     try:
         languages_present[language_name] = languages[language_name][
-            "name"
+            "vicky"
         ]
     except:
         print(
