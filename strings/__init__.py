@@ -37,21 +37,21 @@ for filename in os.listdir(r"./strings"):
 
 
 for filename in os.listdir(r"./strings/langs/"):
-    if "en" not in languages:
-        languages["en"] = yaml.safe_load(
-            open(r"./strings/langs/en.yml", encoding="utf8")
+    if "vicky" not in languages:
+        languages["vicky"] = yaml.safe_load(
+            open(r"./strings/langs/vicky.yml", encoding="utf8")
         )
-        languages_present["en"] = languages["en"]["name"]
+        languages_present["vicky"] = languages["vicky"]["name"]
     if filename.endswith(".yml"):
         language_name = filename[:-4]
-        if language_name == "en":
+        if language_name == "vicky":
             continue
         languages[language_name] = yaml.safe_load(
             open(r"./strings/langs/" + filename, encoding="utf8")
         )
-        for item in languages["en"]:
+        for item in languages["vicky"]:
             if item not in languages[language_name]:
-                languages[language_name][item] = languages["en"][item]
+                languages[language_name][item] = languages["vicky"][item]
     try:
         languages_present[language_name] = languages[language_name][
             "name"
