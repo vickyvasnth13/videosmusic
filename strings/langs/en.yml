@@ -142,7 +142,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Processing Query... Please Wait!"
+play_1 : "🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀
+     ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗"
 play_2 : "**🏷Channel Play Mode**\n\n🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀
      ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
@@ -189,7 +190,7 @@ playmode_2 : "Settings changed and saved successfully by {0}"
 
 #Stream 
 str_1 : "Please Provide M3u8 Links or Index Links."
-str_2 : "✅ Valid Stream Verified\n\nPlease wait processing link.."
+str_2 : "🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀\n\n ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗"
 str_3 : "Unable to stream youtube live streams. No Live Format Found"
 
 #TopPlay
@@ -244,25 +245,25 @@ BACK_BUTTON : "◀ ʙᴀᴄᴋ"
 UNBAN_BUTTON : "🗑 Unban Assistant"
 
 #Lyrics
-L_B_1 : "🚀 Checkout Lyrics Now"
+L_B_1 : "🚀 ᴄʜᴇᴄʜᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
 
 # Start
-S_B_1 : "🗒 Commands"
-S_B_2 : "🔧 Settings"
-S_B_3 : "📨 Support"
-S_B_4 : "📨 Channel"
-S_B_5 : "✚ Add me to your Group"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands Menu."
+S_B_1 : "🗒 ᴄᴏᴍᴍᴀɴᴅ"
+S_B_2 : "⚙️ sᴇᴛᴛɪɴɢ"
+S_B_3 : "📨 sᴜᴘᴘᴏʀᴛ"
+S_B_4 : "📨 ᴄʜᴀɴɴᴇʟ"
+S_B_5 : "🧞 ᴀᴅᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ 👀"
+S_B_6 : "💡 ɢɪᴛ ʀᴇᴘᴏ"
+S_B_7 : "❄️ ʙᴏᴛ ᴏᴡɴᴇʀ 💫 "
+S_B_8 : "🗼 ᴄᴏᴍᴍᴀɴᴅs ᴏғ ᴍᴜsɪᴄ ᴠɪʙᴇ 🗿"
 
 #Help 
-H_B_1 : "Admin Commands"
-H_B_2 : "Play Commands"
-H_B_3 : "Bot Commands"
-H_B_4 : "Extra Commands"
-H_B_5 : "Close Menu"
-H_B_6 : "SudoUser Commands"
+H_B_1 : "❄️ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs 🎙️"
+H_B_2 : "🕴️ ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs 💥"
+H_B_3 : "👾 ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs 🎋"
+H_B_4 : "🌬️ ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅs 👀"
+H_B_5 : "🛡️ ᴄʟᴏsᴇ ᴍᴇɴᴜ 💫"
+H_B_6 : "🕵️ sᴜᴅᴏᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs 👽"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
