@@ -129,7 +129,6 @@ gstats_11 : "**General Stats of {0}**\nSelect the buttons from below for which y
 
 # Play ๏ ʙᴏᴛ ᴏᴡɴᴇʀ : @vicky_vky
 
-
 #Play Callback 
 playcb_1 : "This is not for you! Search You Own Song."
 playcb_2 : "Getting Next Result"
@@ -143,10 +142,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀
-     ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗"
-play_2 : "**🏷Channel Play Mode**\n\n🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀
-     ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗\n**Linked Channel:** {0}"
+play_1 : "🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀 ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗
+play_2 : "**🏷Channel Play Mode**\n\n🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀 ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
@@ -270,6 +267,7 @@ H_B_6 : "🕵️ sᴜᴅᴏᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs 👽"
 PM_B_1 : "ᴅɪʀᴇᴄᴛᴘʟᴀʏ"
 PM_B_2 : "ɪɴʟɪɴᴇᴍᴀʀᴋᴜᴘ
 PM_B_3 : "ᴄʜᴀɴɴᴇʟᴘʟᴀʏ"
+
 #Play
 P_B_1 : "🎵 ᴘʟᴀʏ ᴀᴅᴜɪᴏ"
 P_B_2 : "🎥 ᴘʟᴀʏ ᴠɪᴅᴇᴏ"
