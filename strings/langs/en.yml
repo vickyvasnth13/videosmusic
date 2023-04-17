@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "ʜᴇʏ 「⋆〄╏ᴍᴜsɪᴄ ᴠɪʙᴇ╏🧞◉」 🦹\n๏ ᴛʜɪs ɪs {0} !\n\n➻ ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs.\n\nSᴜᴘᴘᴏʀᴛᴇᴅ Pʟᴀᴛғᴏʀᴍs : ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ ᴀɴᴅ sᴏᴜɴᴅᴄʟᴏᴜᴅ.\n──────────────────\n๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs."
+start_2 : "Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups."
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
@@ -83,7 +83,7 @@ start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** 
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "/"
+help_1 : "Click on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nAll commands can be used with: /"
 help_2 : "Contact me in PM for help."
 
 # Settings
@@ -127,7 +127,7 @@ gstats_10 : "**Global Stats of {0}**\n\nSelect the buttons from below for which 
 gstats_11 : "**General Stats of {0}**\nSelect the buttons from below for which you want to check global stats from bot's servers.\n\nTo check top tracks, chats, users and other stuffs, please use /gstats"
 
 
-# Play ๏ ʙᴏᴛ ᴏᴡɴᴇʀ : @vicky_vky
+# Play 
 
 #Play Callback 
 playcb_1 : "This is not for you! Search You Own Song."
@@ -142,8 +142,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀 ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗
-play_2 : "**🏷Channel Play Mode**\n\n🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀 ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗\n**Linked Channel:** {0}"
+play_1 : "🔄 Processing Query... Please Wait!"
+play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
@@ -188,7 +188,7 @@ playmode_2 : "Settings changed and saved successfully by {0}"
 
 #Stream 
 str_1 : "Please Provide M3u8 Links or Index Links."
-str_2 : "🎡 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ...👀\n\n ❄️ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ....💗"
+str_2 : "✅ Valid Stream Verified\n\nPlease wait processing link.."
 str_3 : "Unable to stream youtube live streams. No Live Format Found"
 
 #TopPlay
@@ -229,111 +229,111 @@ queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "✨ **sᴛᴀʀᴇᴅ sᴛʀᴇᴀᴍɪɴɢ** 💫\n\n👀**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {0}\n🕴️**ɪɴғᴏʀᴍᴀᴛɪᴏɴ: **[Here]({1})"
-stream_2 : "🎙️ **sᴛᴀʀᴇᴅ sᴛʀᴇᴍɪɴɢ ʙʏ ᴜʀʟ ** ❄️\n\n👀**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {0}"
-stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**ᴅᴜʀᴀᴛɪᴏɴ**: {1}\n🕴️**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {2}"
-stream_4 : "🦹 **sᴛᴀʀᴇᴅ sᴛʀᴇᴀᴍɪɴɢ** ✨\n\n**🫧ᴛɪᴛʟᴇ :** [{0}]({1})\n⌛️**ᴅᴜʀᴀᴛɪᴏɴ**: {2}\n🎡**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {3}"
+stream_1 : "📡 **Started Streaming** 💡\n\n👤**Requested By:** {0}\n🔦**Information: **[Here]({1})"
+stream_2 : "📡 **Started Streaming via URL ** 💡\n\n👤**Requested By:** {0}"
+stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
+stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🗑 ᴄᴏʟsᴇ ᴍᴇɴᴜ"
-CLOSEMENU_BUTTON  : "🗑 ᴄᴏʟsᴇ ᴍᴇɴᴜ"
-BACK_BUTTON : "◀ ʙᴀᴄᴋ"
+CLOSE_BUTTON  : "🗑 Close"
+CLOSEMENU_BUTTON  : "🗑 Close Menu"
+BACK_BUTTON : "⬅ Back"
 UNBAN_BUTTON : "🗑 Unban Assistant"
 
 #Lyrics
-L_B_1 : "🚀 ᴄʜᴇᴄʜᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
+L_B_1 : "🚀 Checkout Lyrics Now"
 
 # Start
-S_B_1 : "🗒 ᴄᴏᴍᴍᴀɴᴅ"
-S_B_2 : "⚙️ sᴇᴛᴛɪɴɢ"
-S_B_3 : "📨 sᴜᴘᴘᴏʀᴛ"
-S_B_4 : "📨 ᴄʜᴀɴɴᴇʟ"
-S_B_5 : "🧞 ᴀᴅᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ 👀"
-S_B_6 : "💡 ɢɪᴛ ʀᴇᴘᴏ"
-S_B_7 : "❄️ ʙᴏᴛ ᴏᴡɴᴇʀ 💫 "
-S_B_8 : "🗼 ᴄᴏᴍᴍᴀɴᴅs ᴏғ ᴍᴜsɪᴄ ᴠɪʙᴇ 🗿"
+S_B_1 : "🗒 Commands"
+S_B_2 : "🔧 Settings"
+S_B_3 : "📨 Support"
+S_B_4 : "📨 Channel"
+S_B_5 : "✚ Add me to your Group"
+S_B_6 : "💡 Git Repo"
+S_B_7 : "👤 Bot Owner"
+S_B_8 : "🔎 How to Use? Commands Menu."
 
 #Help 
-H_B_1 : "❄️ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs 🎙️"
-H_B_2 : "🕴️ ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs 💥"
-H_B_3 : "👾 ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs 🎋"
-H_B_4 : "🌬️ ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅs 👀"
-H_B_5 : "🛡️ ᴄʟᴏsᴇ ᴍᴇɴᴜ 💫"
-H_B_6 : "🕵️ sᴜᴅᴏᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs 👽"
+H_B_1 : "Admin Commands"
+H_B_2 : "Play Commands"
+H_B_3 : "Bot Commands"
+H_B_4 : "Extra Commands"
+H_B_5 : "Close Menu"
+H_B_6 : "SudoUser Commands"
 
 #PlayMode
-PM_B_1 : "ᴅɪʀᴇᴄᴛᴘʟᴀʏ"
-PM_B_2 : "ɪɴʟɪɴᴇᴍᴀʀᴋᴜᴘ
-PM_B_3 : "ᴄʜᴀɴɴᴇʟᴘʟᴀʏ"
+PM_B_1 : "DirectPlay"
+PM_B_2 : "InlineMarkup"
+PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "🎵 ᴘʟᴀʏ ᴀᴅᴜɪᴏ"
-P_B_2 : "🎥 ᴘʟᴀʏ ᴠɪᴅᴇᴏ"
-P_B_3 : "🏮 sᴛᴀʀᴛ ʟɪᴠᴇ sᴛʀᴇᴀᴍ"
-P_B_4 : "🎵 ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛ"
+P_B_1 : "🎵 Play Audio"
+P_B_2 : "🎥 Play Video"
+P_B_3 : "🏮 Start Live Stream"
+P_B_4 : "🎵 Play Playlist"
 
 #Playlist
-PL_B_1 : "🚀 ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛ"
-PL_B_2 : "✚ ᴘʟᴀʏʟɪsᴛ"
-PL_B_3 : "🎐 ᴄ-ᴘᴀɴᴇʟ"
-PL_B_4 : "📡 ᴘʟᴀʏ ᴍᴏᴅᴇ"
-PL_B_5 : "🔄 ᴅᴇʟ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ"
-PL_B_6 : "↗️ ᴅᴇʟᴇᴛᴇ ᴘʟᴀʏʟɪsᴛ"
-PL_B_7 : "❗️ ʏᴇs, ɪ'ᴍ sᴜʀᴇ. ᴅᴇʟᴇᴛᴇ ɪᴛ"
-PL_B_8 : "🔢 ᴘʟᴀʏ ᴛᴏᴘ 10"
-PL_B_9 : "🤖 ᴘʟᴀʏ ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
-PL_B_10 : "🏘 ᴘʟᴀʏ ɢʀᴏᴜᴘ's ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
-PL_B_11 : "👤 ᴘʟᴀʏ ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ ᴛʀᴀᴄᴋs"
+PL_B_1 : "🚀 Play Playlist"
+PL_B_2 : "✚ Playlists"
+PL_B_3 : "✚ CPanel"
+PL_B_4 : "📡 Play Mode"
+PL_B_5 : "🔄 Del Whole Playlist"
+PL_B_6 : "↗️ Delete Playlist"
+PL_B_7 : "❗️ Yes, I'm sure. Delete it"
+PL_B_8 : "🔢 Play Top 10"
+PL_B_9 : "🤖 Play Global Top 10 Tracks"
+PL_B_10 : "🏘 Play Group's Top 10 Tracks"
+PL_B_11 : "👤 Play Personal Top 10 Tracks"
 
 #Settings
-ST_B_1 : "🔊 ᴀᴜᴅ ǫᴜᴀʟɪᴛʏ"
-ST_B_2 : "🎥 ᴠɪᴅ ǫᴜᴀʟɪᴛʏ"
-ST_B_3 : "🎩 ᴀᴜᴛʜ ᴜsᴇʀs"
-ST_B_4 : "📱 ᴅᴀsʜʙᴏᴀʀᴅ"
-ST_B_5 : "▶️ ᴘʟᴀʏ ᴍᴏᴅᴇ"
-ST_B_6 : "🎌 ʟᴀɴɢᴜᴀɢᴇ"
-ST_B_7 : "💥 ᴄʟᴇᴀɴ ᴍᴏᴅᴇ"
-ST_B_8 : "{0} ʟᴏᴡ ǫᴜᴀʟɪᴛʏ ᴀᴜᴅɪᴏ"
-ST_B_9 : "{0} ᴍᴇᴅɪᴜᴍ ǫᴜᴀʟɪᴛʏ ᴀᴜᴅɪᴏ"
-ST_B_10 : "{0} ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴀᴜᴅɪᴏ"
-ST_B_11 : "{0} ʟᴏᴡ ǫᴜᴀʟɪᴛʏ ᴠɪᴅᴇᴏ
-ST_B_12 : "{0} ᴍᴇᴅɪᴜᴍ ǫᴜᴀʟɪᴛʏ ᴠɪᴅᴇᴏ"
-ST_B_13 : "{0} ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴠɪᴅᴇᴏ"
-ST_B_14 : "✨ ᴇɴᴀʙᴇʟ"
-ST_B_15 : "👒 ᴅɪsᴀʙʟᴇᴅ"
-ST_B_16 : "👤 ᴀᴅᴍɪɴ"
-ST_B_17 : "👥 ᴇᴠᴇʀʏᴏɴᴇ"
-ST_B_18 : "📋 ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀs ʟɪsᴛs"
-ST_B_19 : "🔎 sᴇʀᴀᴄʜ ᴍᴏᴅᴇ"
-ST_B_20 : "✅ ᴅɪʀᴇᴄᴛ"
-ST_B_21 : "✅ ɪɴʟɪɴᴇ"
-ST_B_22 : "👨‍⚖️ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs"
-ST_B_23 : "🏘 ɢʀᴏᴜᴘ"
-ST_B_24 : "🏷 ᴄʜᴇɴɴᴀʟ"
-ST_B_25 : "🫂 ᴘʟᴀʏ ᴛʏᴘᴇ"
-ST_B_26 : "🗑 ᴄᴏᴍᴍᴀɴᴅ ᴄʟᴇᴀɴ"
-ST_B_27 : "🧑‍🚀 sᴜɢɢᴇsᴛɪᴏɴ ᴍᴏᴅᴇ"
+ST_B_1 : "🔊 Aud Quality"
+ST_B_2 : "🎥 Vid Quality"
+ST_B_3 : "🎩 Auth Users"
+ST_B_4 : "📱 Dashboard"
+ST_B_5 : "▶️ Play Mode"
+ST_B_6 : "🏳️‍🌈 Language"
+ST_B_7 : "🔄 Clean Mode"
+ST_B_8 : "{0} Low Quality Audio"
+ST_B_9 : "{0} Medium Quality Audio"
+ST_B_10 : "{0} High Quality Audio"
+ST_B_11 : "{0} Low Quality Video"
+ST_B_12 : "{0} Medium Quality Video"
+ST_B_13 : "{0} High Quality Video"
+ST_B_14 : "✅ Enabled"
+ST_B_15 : "❌ Disabled"
+ST_B_16 : "👤 Admins"
+ST_B_17 : "👥 Everyone"
+ST_B_18 : "📋 Authorized Users Lists"
+ST_B_19 : "🔎 Search Mode"
+ST_B_20 : "✅ Direct"
+ST_B_21 : "✅ Inline"
+ST_B_22 : "👨‍⚖️ Admin Commands"
+ST_B_23 : "🏘 Group"
+ST_B_24 : "🏷 Channel"
+ST_B_25 : "🫂 Play Type"
+ST_B_26 : "🗑 Command Clean"
+ST_B_27 : "🧑‍🚀 Suggestion Mode"
 
 #Song
-SG_B_1 : "↗️ ᴏᴘᴇɴ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ"
-SG_B_2 : "🔊 ᴀᴜᴅɪᴏ"
-SG_B_3 : "🎥 ᴠɪᴅᴇᴏ"
+SG_B_1 : "↗️ Open Private Chat"
+SG_B_2 : "🔊 Audio"
+SG_B_3 : "🎥 Video"
 
 #Stats
-SA_B_1 : "📢 ᴛᴏᴘ 10 ᴄʜᴀᴛ"
-SA_B_2 : "🔢 ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
-SA_B_3 : "🧛 ᴛᴏᴘ 10 ᴜsᴇʀs"
-SA_B_4 : "🏷 ᴛᴏᴘ 10 ʜᴇʀᴇ"
-SA_B_5 : "💡 ᴏᴠᴇʀᴀʟʟ sᴛᴀᴛs"
-SA_B_6 : "👤 ᴜsᴇʀ sᴛᴀᴛs"
-SA_B_7 : "🔢 ɢʟᴏʙᴀʟ ᴛᴏᴘ sᴛᴀᴛs"
-SA_B_8 : "🤖 ʙᴏᴛ sᴛᴀᴛs"
+SA_B_1 : "📢 Top 10 Chat"
+SA_B_2 : "🔢 Top 10 Tracks"
+SA_B_3 : "🧛 Top 10 Users"
+SA_B_4 : "🏷 Top 10 Here"
+SA_B_5 : "💡 Overall Stats"
+SA_B_6 : "👤 User Stats"
+SA_B_7 : "🔢 Global Top 10 Stats"
+SA_B_8 : "🤖 Bot Stats"
 
 #Queue
-QU_B_1 : "📑 ǫᴜᴇᴜᴇᴅ ʟɪsᴛ"
-QU_B_2 : "ᴘʟᴀʏᴇᴅ {0} ᴏᴜᴛ ᴏғ {1} ᴍɪɴs"
+QU_B_1 : "📑 Queued List"
+QU_B_2 : "Played {0} out of {1} Mins"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
