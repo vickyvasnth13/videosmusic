@@ -25,6 +25,10 @@ def start_pannel(_):
             InlineKeyboardButton(
                 text=_["S_B_2"], callback_data="settings_helper"
             ),
+              InlineKeyboardButton(
+                text=_["💥 ʜᴇʟᴘ 🕵️"],
+                url=f"https://t.me/Music_vibing_bot?start=help",
+            ),
         ],
     ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
@@ -94,6 +98,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     )
                 ]
             )
+            buttons.append(
+        [
+            InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            )
+        ]
+    )
     if GITHUB_REPO and OWNER:
         buttons.append(
             [
