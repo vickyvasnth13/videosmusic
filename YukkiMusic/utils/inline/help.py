@@ -1,17 +1,6 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-
 from typing import Union
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-
-from YukkiMusic import app
 
 
 def help_pannel(_, START: Union[bool, int] = None):
@@ -34,28 +23,58 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text=_["H_B_1"],
+                    text="ᴀᴅᴍɪɴ",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text=_["H_B_2"],
+                    text="ᴀᴜᴛʜ",
                     callback_data="help_callback hb2",
                 ),
-            ],
-            [
                 InlineKeyboardButton(
-                    text=_["H_B_3"],
+                    text="ʙʟᴀᴄᴋʟɪsᴛ",
                     callback_data="help_callback hb3",
                 ),
+            ],
+            [
                 InlineKeyboardButton(
-                    text=_["H_B_4"],
+                    text="ʙʀᴏᴀᴅᴄᴀsᴛ",
                     callback_data="help_callback hb4",
+                ),
+                InlineKeyboardButton(
+                    text="ɢʙᴀɴ",
+                    callback_data="help_callback hb12",
+                ),
+                InlineKeyboardButton(
+                    text="ʟʏʀɪᴄs",
+                    callback_data="help_callback hb5",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text=_["H_B_6"],
-                    callback_data="help_callback hb5",
+                    text="ᴩɪɴɢ",
+                    callback_data="help_callback hb7",
+                ),
+                InlineKeyboardButton(
+                    text="ᴩʟᴀʏ",
+                    callback_data="help_callback hb8",
+                ),
+                InlineKeyboardButton(
+                    text="ᴩʟᴀʏʟɪsᴛ",
+                    callback_data="help_callback hb6",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="ᴠɪᴅᴇᴏᴄʜᴀᴛs",
+                    callback_data="help_callback hb10",
+                ),
+                InlineKeyboardButton(
+                    text="sᴛᴀʀᴛ",
+                    callback_data="help_callback hb11",
+                ),
+                InlineKeyboardButton(
+                    text="sᴜᴅᴏ",
+                    callback_data="help_callback hb9",
                 ),
             ],
             mark,
@@ -74,7 +93,7 @@ def help_back_markup(_):
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"], callback_data=f"close"
-                ),
+                )
             ]
         ]
     )
@@ -85,8 +104,8 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"],
-                url=f"https://t.me/{app.username}?start=help",
+                text="❄ ʜᴇʟᴩ ❄",
+                callback_data="settings_back_helper",
             ),
         ],
     ]
