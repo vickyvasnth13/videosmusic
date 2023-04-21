@@ -236,13 +236,13 @@ stream_4 : "✨ sᴛᴀʀᴇᴅ sᴛʀᴇᴀᴍɪɴɢ 💫\n\n**🏷Title:** [{0
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🗑 Close"
-CLOSEMENU_BUTTON  : "🗑 Close Menu"
-BACK_BUTTON : "⬅ Back"
-UNBAN_BUTTON : "🗑 Unban Assistant"
+CLOSE_BUTTON  : "↻ ᴄʟᴏsᴇ ↺"
+CLOSEMENU_BUTTON  : ↻ ᴄʟᴏsᴇ ↺"
+BACK_BUTTON : "◁"
+UNBAN_BUTTON : "🥺 ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ ʙᴀʙʏ ❤️"
 
 #Lyrics
-L_B_1 : "🚀 Checkout Lyrics Now"
+L_B_1 : "😉 ᴄʜᴇᴄᴋᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
 
 # Start
 S_B_1 : "🗼 ᴄᴏᴍᴍᴀɴᴅs 🗿"
