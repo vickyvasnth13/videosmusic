@@ -549,7 +549,7 @@ async def cleanmode_mark(client, CallbackQuery, _):
         cle = None
         sta = None
         if await is_cleanmode_on(CallbackQuery.message.chat.id):
-            cle = True
+            cle = False
         if await is_commanddelete_on(CallbackQuery.message.chat.id):
             sta = True
         if await is_suggestion(CallbackQuery.message.chat.id):
