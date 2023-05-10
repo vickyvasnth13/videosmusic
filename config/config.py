@@ -72,11 +72,11 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "54000")
+    getenv("ASSISTANT_LEAVE_TIME", None)
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
@@ -172,7 +172,7 @@ START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/fc693b9b63ad0a
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/fc693b9b63ad0ab77a1df.jpg",)
+    "https://te.legra.ph/file/d68b2c5e93655168c9729.jpg",)
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
