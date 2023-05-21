@@ -45,7 +45,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
         ],
         [ 
-            InlineKeyboardButton(text="🫧 Bᴏᴛ ɪɴғᴏ 👀", url=f"https://telegra.ph/s%E1%B4%8F%CA%9F%E1%B4%8F-%E1%B4%9B%CA%80%E1%B4%87%E1%B4%87-%E1%B4%84%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%9C%C9%B4%C9%AA%E1%B4%9B%CA%8F-B%E1%B4%8F%E1%B4%9B-O%E1%B4%98%E1%B4%9B%C9%AA%E1%B4%8D%C9%AA%E1%B4%A2%E1%B4%80%E1%B4%9B%C9%AA%E1%B4%8F%C9%B4-%E1%B4%8D%E1%B4%87%C9%B4%E1%B4%9Cs-05-21"), 
+            InlineKeyboardButton(text="🫧 Bᴏᴛ sᴇʀᴠᴇʀ  ɪɴғᴏ 👀", url=f"https://telegra.ph/s%E1%B4%8F%CA%9F%E1%B4%8F-%E1%B4%9B%CA%80%E1%B4%87%E1%B4%87-%E1%B4%84%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%9C%C9%B4%C9%AA%E1%B4%9B%CA%8F-B%E1%B4%8F%E1%B4%9B-O%E1%B4%98%E1%B4%9B%C9%AA%E1%B4%8D%C9%AA%E1%B4%A2%E1%B4%80%E1%B4%9B%C9%AA%E1%B4%8F%C9%B4-%E1%B4%8D%E1%B4%87%C9%B4%E1%B4%9Cs-05-21"), 
         ],    
         [
             InlineKeyboardButton(
