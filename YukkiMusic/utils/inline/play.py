@@ -44,6 +44,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
+        [ 
+
+         InlineKeyboardButton(text="✨ ᴘʀɪᴠᴀᴄʏ ᴘᴏʟɪᴄʏ 🥀", url=f"https://telegra.ph/Bot-Privacy-Policy-05-05"), 
+
+       ],    
         [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
