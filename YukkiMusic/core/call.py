@@ -47,7 +47,7 @@ from YukkiMusic.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
-AUTO_END_TIME = 2
+AUTO_END_TIME = 7
 
 
 async def _clear_(chat_id):
