@@ -42,5 +42,6 @@ async def ping_com(client, message: Message, _):
     await response.edit_text(
         _["ping_2"].format(
             MUSIC_BOT_NAME, resp, UP, DISK, CPU, RAM, pytgping
-        )
+        ),
+        reply_markup=close_keyboard
     )
