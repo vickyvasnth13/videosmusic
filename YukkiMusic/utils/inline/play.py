@@ -14,7 +14,7 @@ from pyrogram.types import InlineKeyboardButton
 selections = [
     "▰▱▰ຮ๏ʟ๏ ₮ʀᴇᴇ▰▱▱",
     "▰▱▰SⓄᏞ๏ ŤરEᴇ▰▰▱",
-    "▰▰▱S⃟oL๏ TR͙ⒺⒺ▰▱▱",
+    "▰▰▱S⃟oL๏ TяⒺⒺ▰▱▱",
     "▱▱▰sᴏʟØ ᴛʀᴇᴇ▰▱▰",
     "▰▱▰ⓈᎾLᎾ T⃟REE▱▱▰",
     "▰▱▱s๏ʟⓞ ᴛરᴇᴇ▰▰▱",
