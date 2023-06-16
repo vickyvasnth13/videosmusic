@@ -105,7 +105,7 @@ class TeleAPI:
                     + (video.file_name.split(".")[-1])
                 )
             except:
-                file_name = video.file_unique_id + "." + "mp4"
+                file_name = video.file_unique_id + "." + "mp4" + "mkv"
             file_name = os.path.join(
                 os.path.realpath("downloads"), file_name
             )
