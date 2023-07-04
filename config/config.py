@@ -197,7 +197,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "assets/Video.jpeg",
+    "https://te.legra.ph/file/44b6abbc61cc3a662ea10.jpg",
 )
 
 STREAM_IMG_URL = getenv(
@@ -212,7 +212,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "assets/Youtube.jpeg",
+    "https://te.legra.ph/file/44b6abbc61cc3a662ea10.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
